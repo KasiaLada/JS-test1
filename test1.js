@@ -58,13 +58,84 @@
 // data("Kasia", 35);
 // ------------
 
-const test3 = (name) => console.log('Mam na imei Kasia');
+// const test3 = (name) => console.log('Mam na imei Kasia');
 
-const test4 = (name, age) => console.log(name, age);
-test4('name', 123);
+// const test4 = (name, age) => console.log(name, age);
+// test4('name', 123);
 
-const add = (num1, num2) => {
-	return num1 * num2;
+// const add = (num1, num2) => {
+// 	return num1 * num2;
+// };
+// const days = ['pon', 'wt', 'sr'];
+// const days3 = days.forEach.Each(day=>console.log(day));
+
+// ___________________________
+
+// Zadanie #1 - Dodaj elementy i sprawdź czy są parzyste
+
+// let score;
+// const add = (x, y) => {
+// 	score = x + y;
+// 	if (score % 2 === 0) {
+// 		evenMsg();
+// 	} else {
+// 		oddMsg();
+// 	}
+// };
+
+// const evenMsg = () => {
+// 	console.log(`liczba ${score} jest parzysta`);
+// };
+// const oddMsg = () => {
+// 	console.log(`liczba ${score} jest nieprzysta`);
+// };
+
+// add(10, 11);
+
+// _
+// const add = (x, y) => {
+// 	const score = x + y;
+// 	score % 2 === 0 ? evenMsg(score) : oddMsg(score);
+// };
+
+// const evenMsg = (num) => {
+// 	console.log(`liczba ${num} jest parzrzysta`);
+// };
+
+// const oddMsg = (num) => {
+// 	console.log(`liczba ${num} jest nieparzrzysta`);
+// };
+
+// add(1, 2);
+
+// >>>>>>>>>>>>>>>>>>>>>
+// Zadanie #2 - Konwerter °F na °C
+
+// let celcius;
+// let temp;
+// const fahrenheit = (c) => {
+// 	celcius = c;
+// 	temp = celcius * 1.8 + 32;
+// 	console.log(`${c} = ${temp}`);
+// };
+
+// fahrenheit(20);
+
+// """""""""""""""""""
+// Zadanie #3 - Callback & forEach
+
+const num = 10;
+const numbers = [];
+for (let i = 0; i < num; i++) {
+	numbers.push(i);
+}
+console.log(numbers);
+
+const check = (x) => {
+	if (x % 3 ===0 && x !== 0) {
+		console.log(`${x} jest podzielne przez 3`);
+	} else {
+		console.log(`${x} nie jest podzielne przez 3`);
+	}
 };
-const days = ['pon', 'wt', 'sr'];
-const days3 = days.forEach.Each(day=>console.log(day));
+numbers.forEach(check);
