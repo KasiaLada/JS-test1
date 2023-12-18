@@ -124,18 +124,27 @@
 // """""""""""""""""""
 // Zadanie #3 - Callback & forEach
 
-const num = 10;
-const numbers = [];
-for (let i = 0; i < num; i++) {
-	numbers.push(i);
-}
-console.log(numbers);
+// const num = 10;
+// const numbers = [];
+// for (let i = 0; i < num; i++) {
+// 	numbers.push(i);
+// }
+// console.log(numbers);
 
-const check = (x) => {
-	if (x % 3 ===0 && x !== 0) {
-		console.log(`${x} jest podzielne przez 3`);
-	} else {
-		console.log(`${x} nie jest podzielne przez 3`);
-	}
-};
-numbers.forEach(check);
+// const check = (x) => {
+// 	if (x % 3 ===0 && x !== 0) {
+// 		console.log(`${x} jest podzielne przez 3`);
+// 	} else {
+// 		console.log(`${x} nie jest podzielne przez 3`);
+// 	}
+// };
+// numbers.forEach(check);
+
+// _________________________________
+// tworzenie elementów
+
+// const ulList = document.createElement('ul');
+// const liItem = document.createElement('li');
+// liItem.textContent = 'cześć';
+// document.body.appendChild(ulList);
+// ulList.appendChild(liItem);
