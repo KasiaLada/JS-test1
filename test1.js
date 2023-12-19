@@ -148,3 +148,15 @@
 // liItem.textContent = 'cześć';
 // document.body.appendChild(ulList);
 // ulList.appendChild(liItem);
+// ______________________________
+
+// sekcja 10, zad 1
+
+const img = document.querySelector('img');
+img.setAttribute('src', 'alt');
+
+const test = () => {
+	console.log('czesc');
+};
+test();
+setTimeout(test, 5000);
