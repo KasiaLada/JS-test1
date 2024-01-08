@@ -152,11 +152,49 @@
 
 // sekcja 10, zad 1
 
-const img = document.querySelector('img');
-img.setAttribute('src', 'alt');
+// const img = document.querySelector('img');
+// img.setAttribute('src', 'alt');
 
-const test = () => {
-	console.log('czesc');
-};
-test();
-setTimeout(test, 5000);
+// const test = () => {
+// 	console.log('czesc');
+// };
+// test();
+// setTimeout(test, 5000);
+
+// ------------------lekcja 120
+
+// const newUser = {
+// 	name: 'Lisa',
+// 	age: 23,
+// 	car: {
+// 		brand: 'audi',
+// 		model: 'a3',
+// 		color: 'czarnt',
+// 	},
+// };
+
+// console.log(`${newUser.name} jezdzi samochodem ${newUser.car.brand}`);
+
+// ----------------------
+// const user = {
+// 	name: 'Klaudia',
+// 	age: 23,
+// 	'fav color': 'czerwony',
+// };
+// user.country = 'Polska';
+// user['fav-color'] = 'niebieski';
+// const dogName = 'Drops';
+// const dogAge = 5;
+// const dog = {
+// 	dogName,
+// 	dogAge,
+// };
+// ----------------------
+
+// const user = {
+// 	name: "Kasia",
+// };
+
+// console.log(user.name);
+// ----------------------
+
