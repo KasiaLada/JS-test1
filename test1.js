@@ -197,4 +197,61 @@
 
 // console.log(user.name);
 // ----------------------
+// ----------------------
 
+// zad 127
+
+// const btn1 = document.querySelector('.btn-1');
+// const btn2 = document.querySelector('.btn-2');
+// const btn3 = document.querySelector('.btn-3');
+// const p = document.querySelector('p');
+
+// function Food(name, price) {
+// 	this.name = name;
+// 	this.price = price;
+// }
+// const meal = new Food('schabowy', 29);
+// const meal2 = new Food('pizza', 25);
+// const meal3 = new Food('zupa', 10);
+
+// Food.prototype.showInfo = function () {
+// 	console.log(`${this.name} kosztuje ${this.price}`);
+// };
+// btn1.addEventListener('click', () => meal.showInfo());
+// btn2.addEventListener('click', () => meal2.showInfo());
+// btn3.addEventListener('click', () => meal3.showInfo());
+// ---------------------
+
+// zad 132
+
+// function Car(name, color) {
+// 	this.color = color;
+// 	this.name = name;
+// }
+// Car.prototype.sayName = function () {
+// 	console.log(`mam samochód ${this.name}`);
+// };
+// Car.prototype.showColor = function () {
+// 	console.log(`i jest koloru ${this.color}`);
+// };
+// const car1 = new Car('mercedes', 'red');
+// car1.sayName();
+// car1.showColor();
+// +++++++++
+// przepisany prototyp na klase
+class Car2 {
+	constructor(name, color) {
+		this.name = name;
+		this.color = color;
+	}
+
+	sayName() {
+		console.log(`mam samochód marki ${this.name}!`);
+	}
+    
+	showColor() {
+		console.log(`i jest koloru ${this.color}`);
+	}
+}
+const car2 = new Car2('mercedes', 'czerwony');
+console.log(Car2);
